@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-env --allow-ffi main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
+    "@stellar/stellar-sdk": "npm:@stellar/stellar-sdk@^13.0.0"
+  }
+}
